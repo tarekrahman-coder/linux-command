@@ -1,0 +1,100 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2E2E2E;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    background-color: #1C1C1C;
+    padding: 20px;
+    border-bottom: 2px solid #FF5722;
+    
+}
+
+header h1 {
+    color: #F5F5F5;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px 20px;
+    border: 1px dotted #F5F5F5;
+    border-radius: 5px;
+    background-color: #1C1C1C;
+    color: #F5F5F5;
+}
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    color: #FF5722;
+    border-bottom: 2px solid #FF5722;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+footer{
+    width: 100%;    
+    background-color: #1C1C1C;
+    color: #F5F5F5;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #FF5722;
+   position: relative;
+   bottom: -95px;
+   
+   
+}
+
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
